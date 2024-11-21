@@ -1,0 +1,8 @@
+resources:
+- clusterIssuer.yaml
+- namespace.yaml
+
+generators:
+- helm-chart.yaml
+
+namespace: cert-manager
